@@ -1,4 +1,3 @@
-# NLP-Driven-Content-Based-Job-Recommendation-System
 # 📌 Job Recommendation System
 
 A content-based job recommendation system using text data to recommend jobs to users based on their experience, interests, and previously viewed jobs. This project uses TF-IDF, CountVectorizer, SpaCy embeddings, and KNN to compute similarities between job descriptions.
@@ -8,46 +7,35 @@ A content-based job recommendation system using text data to recommend jobs to u
 ## 🚀 Features
 
 Clean and preprocess job and user data by:
-- Imputing missing values
-- Removing stopwords, punctuation, and non-alphanumeric characters
-- Performing tokenization and lemmatization
-- Merging relevant text columns into a single corpus
+
+- Imputing missing values  
+- Removing stopwords, punctuation, and non-alphanumeric characters  
+- Performing tokenization and lemmatization  
+- Merging relevant text columns into a single corpus  
 
 Build datasets by:
-- Merging four CSVs to create unified job and user profiles
+
+- Merging four CSVs to create unified job and user profiles  
 
 Extract features using:
-- TF-IDF
-- CountVectorizer
-- SpaCy Word Embeddings
+
+- TF-IDF  
+- CountVectorizer  
+- SpaCy Word Embeddings  
 
 Compute similarity via:
-- Cosine Similarity
-- K-Nearest Neighbors (KNN)
+
+- Cosine Similarity  
+- K-Nearest Neighbors (KNN)  
 
 Evaluate and visualize job recommendations for selected users.
 
 ---
 
 ## 🗂️ Project Structure
-job-recommendation-system/
-├── dataset/ # Place your local CSVs here after downloa ├── Combined_Jobs_Final.csv
-│ ├── Job_Views.csv
-│ ├── Experience.csv
-│ └── Positions_Of_Interest.csv
-├── job_recommendation_system.ipynb # Full implementation in Jupyter Notebook
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
 
-job-recommendation-system/
-├── dataset/ # Place your local CSVs here after download
-│ ├── Combined_Jobs_Final.csv
-│ ├── Job_Views.csv
-│ ├── Experience.csv
-│ └── Positions_Of_Interest.csv
-├── job_recommendation_system.ipynb # Full implementation in Jupyter Notebook
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+<pre><code>```bash job-recommendation-system/ ├── dataset/ # Place your local CSVs here after download │ ├── Combined_Jobs_Final.csv │ ├── Job_Views.csv │ ├── Experience.csv │ └── Positions_Of_Interest.csv ├── job_recommendation_system.ipynb # Full implementation in Jupyter Notebook ├── requirements.txt # Python dependencies └── README.md # Project documentation ```</code></pre>
+
 
 
 ---
