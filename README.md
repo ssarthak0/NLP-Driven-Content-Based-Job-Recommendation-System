@@ -57,6 +57,10 @@ After downloading, extract the CSV files and place them in the `dataset/` folder
 
 Install required dependencies:
 
+
+```bash
+pip install -r requirements.txt
+
 Main dependencies:
 
 Python 3.6+
@@ -68,9 +72,6 @@ scikit-learn
 nltk
 
 spacy
-
-```bash
-pip install -r requirements.txt
 
 Download required NLP models:
 
