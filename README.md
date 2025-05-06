@@ -1,4 +1,4 @@
-# 📌 Job Recommendation System
+# 📌 NLP-Driven Content-Based Job Recommendation System
 
 A content-based job recommendation system using text data to recommend jobs to users based on their experience, interests, and previously viewed jobs. This project uses TF-IDF, CountVectorizer, SpaCy embeddings, and KNN to compute similarities between job descriptions.
 
@@ -34,7 +34,7 @@ Evaluate and visualize job recommendations for selected users.
 
 ## 🗂️ Project Structure
 
-job-recommendation-system/
+NLP-Driven Content-Based Job Recommendation System
 - dataset/ # Place your local CSVs here after download
 -- Combined_Jobs_Final.csv
 -- Job_Views.csv
