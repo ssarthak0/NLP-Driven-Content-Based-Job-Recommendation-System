@@ -30,6 +30,14 @@ Evaluate and visualize job recommendations for selected users.
 ---
 
 ## 🗂️ Project Structure
+job-recommendation-system/
+├── dataset/ # Place your local CSVs here after downloa ├── Combined_Jobs_Final.csv
+│ ├── Job_Views.csv
+│ ├── Experience.csv
+│ └── Positions_Of_Interest.csv
+├── job_recommendation_system.ipynb # Full implementation in Jupyter Notebook
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 job-recommendation-system/
 ├── dataset/ # Place your local CSVs here after download
