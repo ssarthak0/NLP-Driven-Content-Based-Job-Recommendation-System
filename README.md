@@ -63,22 +63,22 @@ pip install -r requirements.txt
 Download required NLP models:
 
 NLTK (Windows/macOS/Linux)
+
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
 SpaCy (Windows)
+
 import spacy
 spacy.cli.download("en_core_web_lg")  # Downloads and links the model
-
 nlp = spacy.load("en_core_web_lg")    # Loads the model
 
 🧠 Recommender Techniques Used
+
 TF-IDF + Cosine Similarity
-
 CountVectorizer + Cosine Similarity
-
 SpaCy Vector Embeddings + Similarity
 
 KNN-Based Similarity Search
@@ -88,6 +88,7 @@ Since there's no explicit user rating data, relevance is manually verified.
 Example: Applicant.ID = 326 is selected to assess job matches based on job title and profile alignment.
 
 📌 Final Thoughts
-Content-based recommenders are powerful when explicit ratings or collaborative data are missing — like in many real-world job platforms. Enhancing this system with hybrid recommenders or user behavior data can significantly improve personalization and accuracy.
+Content-based recommenders are powerful when explicit ratings or collaborative data are missing — like in many real-world job platforms.
+Enhancing this system with hybrid recommenders or user behavior data can significantly improve personalization and accuracy.
 
 
